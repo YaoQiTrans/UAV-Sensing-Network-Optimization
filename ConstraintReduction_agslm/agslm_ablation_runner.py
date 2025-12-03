@@ -9,7 +9,7 @@ from gurobipy import GRB
 import scipy.sparse
 
 # --- 1. 环境配置与模块导入 ---
-sys.path.append(os.path.join(os.getcwd(), 'model_static'))
+# sys.path.append(os.path.join(os.getcwd(), 'model_static'))
 
 try:
     import data_processor, preprocess
